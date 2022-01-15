@@ -1,0 +1,9 @@
+
+str1=input("Enter the Sentence: ")
+list1=str1.split(' ')
+# print(list1)
+set1=set(list1)
+# print(set1)
+list2=list(set1)
+list2.sort()
+print(' '.join(list2))
